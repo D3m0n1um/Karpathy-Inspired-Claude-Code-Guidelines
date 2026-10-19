@@ -57,7 +57,7 @@ Claude Code reads `CLAUDE.md` automatically at session start. No other setup nee
 
 ### Option B — Claude Code Plugin (all projects)
 
-```
+```bash
 # use Claude Code plugin (requires marketplace access)
 /plugin marketplace add D3m0n1um/Karpathy-Inspired-Claude-Code-Guidelines
 /plugin install karpathy-code-guidelines@karpathy-guidelines
