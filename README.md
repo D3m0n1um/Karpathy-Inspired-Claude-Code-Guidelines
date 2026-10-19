@@ -46,11 +46,11 @@ Principle 4 (Goal-Driven Execution) operationalizes this: transform every task f
 
 ```bash
 # New project
-curl -o CLAUDE.md https://raw.githubusercontent.com/BurukalaManiReethika/Karpathy-Inspired-Claude-Code-Guidelines/main/CLAUDE.md
+curl -o CLAUDE.md https://raw.githubusercontent.com/D3m0n1um/Karpathy-Inspired-Claude-Code-Guidelines/main/CLAUDE.md
 
 # Existing project (append)
 echo "" >> CLAUDE.md
-curl https://raw.githubusercontent.com/BurukalaManiReethika/Karpathy-Inspired-Claude-Code-Guidelines/main/CLAUDE.md >> CLAUDE.md
+curl https://raw.githubusercontent.com/D3m0n1um/Karpathy-Inspired-Claude-Code-Guidelines/main/CLAUDE.md >> CLAUDE.md
 ```
 
 Claude Code reads `CLAUDE.md` automatically at session start. No other setup needed.
@@ -58,7 +58,7 @@ Claude Code reads `CLAUDE.md` automatically at session start. No other setup nee
 ### Option B — Claude Code Plugin (all projects)
 
 ```
-/plugin marketplace add BurukalaManiReethika/Karpathy-Inspired-Claude-Code-Guidelines
+/plugin marketplace add D3m0n1um/Karpathy-Inspired-Claude-Code-Guidelines
 /plugin install karpathy-code-guidelines@karpathy-guidelines
 ```
 
